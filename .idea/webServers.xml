@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="fe22cf2d-548f-4e18-97e1-2ba38d1f416e" name="MC World" url="http://localhost">
+        <fileTransfer mountedRoot="C:\Users\user\AppData\Roaming\.minecraft\saves\New Datapack Era\datapacks" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>

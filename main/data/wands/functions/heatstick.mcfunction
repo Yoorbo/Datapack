@@ -9,7 +9,7 @@ execute at @e[scores={flamed=1..}] run particle minecraft:flame ~ ~ ~ 1 1 1 0.15
 execute at @a[scores={right_heatstick=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{hotstick:1b}}}] run particle minecraft:lava ~ ~ ~ 1 1 1 0.15 100
 execute as @a[scores={right_heatstick=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{hotstick:1b}}}] at @s run summon minecraft:area_effect_cloud ~ ~ ~ {Radius:5,Duration:200,Particle:"minecraft:dripping_lava"}
 #destroy
-replaceitem entity @a[scores={right_heatstick=1..,destroy_item=1..}] weapon.mainhand air
+item replace entity @a[scores={right_heatstick=1..,destroy_item=1..}] weapon.mainhand with air
 execute at @a[scores={right_heatstick=1..,destroy_item=1..}] run playsound minecraft:block.lava.extinguish master @a ~ ~ ~
 execute at @a[scores={right_heatstick=1..,destroy_item=1..}] run playsound minecraft:item.shield.break master @a ~ ~ ~
 #damage

@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:iron_nugget"
+        },
+        {
+            "item": "minecraft:red_dye"
+        }
+    ],
+    "result": {
+		"item": "minecraft:redstone",
+		"count": 2
+	}
+}

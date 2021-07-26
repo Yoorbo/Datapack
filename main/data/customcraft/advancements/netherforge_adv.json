@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "NetherforgeUnlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "customcraft:netherforge"
+            }
+        }
+    },
+    "rewards": {
+        "function": "customcraft:netherforge"
+    }
+}

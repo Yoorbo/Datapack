@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "IronstickUnlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "customcraft:ironstick"
+            }
+        }
+    },
+    "rewards": {
+        "function": "customcraft:ironstick"
+    }
+}

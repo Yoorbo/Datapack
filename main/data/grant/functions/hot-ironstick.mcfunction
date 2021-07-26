@@ -1,0 +1,1 @@
+give @s minecraft:carrot_on_a_stick{display:{Name:'{"text":"Hot Iron Stick","color":"gold"}',Lore:['{"text":"Right click for one-time use Heatwave","color":"aqua"}']},HideFlags:5,CustomModelData:2344,hotstick:1b,Enchantments:[{id:"minecraft:fire_aspect",lvl:1s}]} 1

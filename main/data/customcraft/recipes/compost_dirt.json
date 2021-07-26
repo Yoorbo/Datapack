@@ -1,0 +1,36 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:dirt"
+        },
+        {
+            "item": "minecraft:dirt"
+        },
+        {
+            "item": "minecraft:dirt"
+        },
+        {
+            "item": "minecraft:dirt"
+        },
+        {
+            "item": "minecraft:grass_block"
+        },
+        {
+            "item": "minecraft:dirt"
+        },
+        {
+            "item": "minecraft:dirt"
+        },
+        {
+            "item": "minecraft:dirt"
+        },
+        {
+            "item": "minecraft:dirt"
+        }
+    ],
+    "result": {
+		"item": "minecraft:bone_meal",
+		"count": 3
+	}
+}

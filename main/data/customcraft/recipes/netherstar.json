@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "DED",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:gold_block"
+        },
+        "D": {
+            "item": "minecraft:diamond_block"
+        },
+        "E": {
+            "item": "minecraft:end_crystal"
+        }
+    },
+    "result": {
+        "item": "minecraft:nether_star",
+        "count": 1
+    }
+}

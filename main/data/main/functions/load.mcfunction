@@ -5,12 +5,13 @@ scoreboard objectives add jump minecraft.custom:minecraft.jump
 scoreboard objectives add piston_delay dummy
 #heatstickscoreboard
 scoreboard objectives add right_heatstick minecraft.used:minecraft.carrot_on_a_stick
-scoreboard objectives add right_heatstick minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add shield minecraft.used:minecraft.shield
 scoreboard objectives add battlehorn minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add battlehornsound dummy
 scoreboard objectives add flamed dummy
 scoreboard objectives add battlhorn_uses dummy
+#specterscoreboards
+scoreboard objectives add r_soulspecter minecraft.used:minecraft.carrot_on_a_stick
 #sleepscoreboard
 scoreboard objectives add sleep dummy
 #elytrascoreboard

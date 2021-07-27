@@ -20,6 +20,8 @@ scoreboard players remove @a[scores={right_heatstick=1..}] right_heatstick 1
 scoreboard players remove @e[scores={flamed=1..}] flamed 1
 scoreboard players remove @e[scores={destroy_item=1..}] destroy_item 1
 
+
+
 execute at @a[nbt={SelectedItem:{id:"minecraft:netherite_sword",tag:{soulsword:1b}}}] run effect give @e[distance=..6,type=!player,type=!arrow,type=!experience_orb,type=!item,type=!cow,type=!villager,type=!armor_stand,type=!pig,type=!bee,type=!hopper_minecart,type=!horse,type=!sheep,type=!cat,type=!sheep,type=!parrot,type=!wolf,nbt=!{SelectedItem:{id:"minecraft:netherite_sword",tag:{soulsword:1b}}}] minecraft:wither 4 1 true
 execute as @a[nbt={SelectedItem:{id:"minecraft:netherite_sword",tag:{soulsword:1b}}}] at @s run execute as @e[distance=..6,type=!item,type=!arrow,type=!experience_orb,type=!minecart,type=!item_frame,type=!armor_stand] at @s run particle minecraft:ash ~ ~ ~ 0.4 0.4 0.4 0.15 10
 execute as @a[nbt={SelectedItem:{id:"minecraft:netherite_sword",tag:{soulsword:1b}}}] at @s run execute as @e[distance=..6,type=!item,type=!arrow,type=!experience_orb,type=!minecart,type=!item_frame,type=!armor_stand] at @s run particle minecraft:soul ~ ~0.3 ~ 0.4 0.4 0.4 0.01 1

@@ -14,6 +14,7 @@ function wands:battlehorn
 function ops:main
 function crafters:placing
 function crafters:crafting
+function specters:main
 
 scoreboard players add @a Ticks 1
 scoreboard players add @a[scores={Ticks=1200..}] Minutes 1

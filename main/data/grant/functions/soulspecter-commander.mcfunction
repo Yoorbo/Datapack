@@ -1,0 +1,1 @@
+give @s minecraft:carrot_on_a_stick{display:{Name:'{"text":"Soul Commander","color":"dark_purple","bold":false,"italic":false}',Lore:['{"text":"Rechtsklick um eine Soulspecter zu spawnen. Specter folgen dir solange du dieses Item in der Hand hälst","color":"aqua"}']},HideFlags:5,CustomModelData:2344,soulcommander:1b} 1

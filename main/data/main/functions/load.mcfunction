@@ -13,10 +13,12 @@ scoreboard objectives add battlhorn_uses dummy
 #specterscoreboards
 scoreboard objectives add r_soulspecter minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add soulzombie dummy
+scoreboard objectives add fairy dummy
 scoreboard objectives add retsoulspecter dummy
 scoreboard players add soulzombie_count soulzombie 0
 scoreboard players add retsoulspecter_c retsoulspecter 0
 scoreboard objectives add soulspecterlife dummy
+scoreboard players add fairy_count fairy 0
 #raycasts
 scoreboard objectives add r_soulpiercer minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add soul_raycast dummy

@@ -1,1 +1,2 @@
 function specters:soulspecter
+function specters:fairy

@@ -18,6 +18,8 @@ function specters:main
 
 function spawn:main
 
+function guns:main
+
 scoreboard players add @a Ticks 1
 scoreboard players add @a[scores={Ticks=1200..}] Minutes 1
 scoreboard players reset @a[scores={Ticks=1200..}] Ticks

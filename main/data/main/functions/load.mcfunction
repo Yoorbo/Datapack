@@ -16,6 +16,7 @@ scoreboard objectives add soulzombie dummy
 scoreboard players add soulzombie_count soulzombie 0
 #raycasts
 scoreboard objectives add soul_raycast dummy
+scoreboard objectives add soulpierced dummy
 #sleepscoreboard
 scoreboard objectives add sleep dummy
 #elytrascoreboard

@@ -1,0 +1,34 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/diamond_sword"
+    },
+    "overrides":
+	[
+    {"predicate": {"custom_model_data": 6370001},"model": "swords/critical"},
+    {"predicate": {"custom_model_data": 6370002},"model": "swords/crystal"},
+    {"predicate": {"custom_model_data": 6370003},"model": "swords/god"},  
+    {"predicate": {"custom_model_data": 6370004},"model": "swords/magic"},  
+    {"predicate": {"custom_model_data": 6370005},"model": "swords/xp"},
+    {"predicate": {"custom_model_data": 6370006},"model": "swords/rainbow"},
+    {"predicate": {"custom_model_data": 6370007},"model": "swords/demon"},  
+    {"predicate": {"custom_model_data": 6370008},"model": "swords/angel"},  
+    {"predicate": {"custom_model_data": 6370009},"model": "swords/star"},  
+    {"predicate": {"custom_model_data": 6370010},"model": "swords/nautilus"},   
+    
+    
+    {"predicate": {"custom_model_data": 6370013},"model": "swords/wither_skeleton"},   
+    {"predicate": {"custom_model_data": 6370014},"model": "swords/loot"},   
+
+    {"predicate": {"custom_model_data": 6370015},"model": "swords/nether_blade"},   
+    {"predicate": {"custom_model_data": 6370016},"model": "swords/heartsbane"},   
+    {"predicate": {"custom_model_data": 6370017},"model": "swords/swift_blade"},   
+    {"predicate": {"custom_model_data": 6370018},"model": "swords/royal_blade"},   
+    {"predicate": {"custom_model_data": 6370019},"model": "swords/soul"},   
+    {"predicate": {"custom_model_data": 6370020},"model": "swords/soil"},   
+    {"predicate": {"custom_model_data": 6370021},"model": "swords/respawn"}   
+
+
+
+    ]
+}

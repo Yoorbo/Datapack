@@ -1,0 +1,17 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/leather_helmet",
+        "layer1": "item/leather_helmet_overlay"
+    },
+	"overrides": 
+	[
+                { "predicate": { "custom_model_data": 6370001}, "model": "helmets/1"},
+                { "predicate": { "custom_model_data": 6370002}, "model": "helmets/2"},	
+                { "predicate": { "custom_model_data": 6370003}, "model": "helmets/3"},	
+                { "predicate": { "custom_model_data": 6370004}, "model": "helmets/4"},	
+                { "predicate": { "custom_model_data": 6370005}, "model": "helmets/5"},
+                { "predicate": { "custom_model_data": 6370006}, "model": "helmets/6"},
+                { "predicate": { "custom_model_data": 6370007}, "model": "helmets/7"}			
+	]
+}

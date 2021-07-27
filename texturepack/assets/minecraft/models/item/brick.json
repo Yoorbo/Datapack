@@ -1,0 +1,35 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/brick"
+    },
+	"overrides": 
+	[
+				{ "predicate": { "custom_model_data": 6370001}, "model": "datapacks/library"},				
+                { "predicate": { "custom_model_data": 6370002}, "model": "datapacks/bokoblin"},
+                { "predicate": { "custom_model_data": 6370003}, "model": "datapacks/stalfos"},
+                { "predicate": { "custom_model_data": 6370004}, "model": "datapacks/keese"},
+                { "predicate": { "custom_model_data": 6370005}, "model": "datapacks/magic_meter"},
+                { "predicate": { "custom_model_data": 6370006}, "model": "datapacks/rods"},
+                { "predicate": { "custom_model_data": 6370007}, "model": "datapacks/hammers"},
+                { "predicate": { "custom_model_data": 6370008}, "model": "datapacks/villager_names"},
+                { "predicate": { "custom_model_data": 6370009}, "model": "datapacks/bosses"},
+                { "predicate": { "custom_model_data": 6370010}, "model": "datapacks/linear_difficulty"},
+                { "predicate": { "custom_model_data": 6370011}, "model": "datapacks/boomerangs"},
+                { "predicate": { "custom_model_data": 6370012}, "model": "zelda/shields/hylian_shield"},
+                { "predicate": { "custom_model_data": 6370013}, "model": "datapacks/magical_bows"},
+                { "predicate": { "custom_model_data": 6370014}, "model": "datapacks/bombs"},
+                { "predicate": { "custom_model_data": 6370015}, "model": "datapacks/rings"},
+                { "predicate": { "custom_model_data": 6370016}, "model": "datapacks/bubbles"},
+                { "predicate": { "custom_model_data": 6370017}, "model": "datapacks/totem"},
+                { "predicate": { "custom_model_data": 6370018}, "model": "zelda/clawshot/clawshot"},
+                { "predicate": { "custom_model_data": 6370019}, "model": "datapacks/hookshot"},
+                { "predicate": { "custom_model_data": 6370020}, "model": "datapacks/rupee"},
+                { "predicate": { "custom_model_data": 6370021}, "model": "datapacks/machines"},
+                { "predicate": { "custom_model_data": 6370022}, "model": "datapacks/apples"},
+                { "predicate": { "custom_model_data": 6370023}, "model": "datapacks/swords"},
+                { "predicate": { "custom_model_data": 6370024}, "model": "datapacks/bows"},
+                { "predicate": { "custom_model_data": 6370025}, "model": "datapacks/pearls"}		
+	]
+	
+}

@@ -1,0 +1,17 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/firework_rocket"
+	},
+	"overrides":
+[
+
+	{ "predicate": { "custom_model_data": 1110}, "model": "block/weaponry" },
+	{ "predicate": { "custom_model_data": 1120}, "model": "block/netherforge" },
+	{ "predicate": { "custom_model_data": 1130}, "model": "block/compacter" },
+	{ "predicate": { "custom_model_data": 1140}, "model": "item/compact_jumppad1" },
+	{ "predicate": { "custom_model_data": 1150}, "model": "block/blockcracker1" },
+	{ "predicate": { "custom_model_data": 1160}, "model": "block/wireless_torch" },
+	{ "predicate": { "custom_model_data": 1170}, "model": "block/resistance" }
+]
+}

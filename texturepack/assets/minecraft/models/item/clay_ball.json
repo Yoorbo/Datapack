@@ -1,0 +1,28 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/clay_ball"
+    },
+	"overrides": 
+	[
+        {"predicate": {"custom_model_data": 6370001},"model": "recipes/pearls/fast"},
+        {"predicate": {"custom_model_data": 6370002},"model": "recipes/pearls/slow"},
+        {"predicate": {"custom_model_data": 6370003},"model": "recipes/pearls/hanging"},
+        {"predicate": {"custom_model_data": 6370004},"model": "recipes/pearls/infested"},
+        {"predicate": {"custom_model_data": 6370005},"model": "recipes/pearls/instant"},
+        {"predicate": {"custom_model_data": 6370006},"model": "recipes/pearls/ninja"},
+        {"predicate": {"custom_model_data": 6370007},"model": "recipes/pearls/no_gravity"},
+        {"predicate": {"custom_model_data": 6370008},"model": "recipes/pearls/swap"},
+        {"predicate": {"custom_model_data": 6370009},"model": "recipes/pearls/party"},
+        {"predicate": {"custom_model_data": 6370010},"model": "recipes/pearls/drop"},
+
+        {"predicate": {"custom_model_data": 6370101},"model": "recipes/hammers/wooden"},
+        {"predicate": {"custom_model_data": 6370102},"model": "recipes/hammers/stone"},
+        {"predicate": {"custom_model_data": 6370103},"model": "recipes/hammers/iron"},
+        {"predicate": {"custom_model_data": 6370104},"model": "recipes/hammers/golden"},
+        {"predicate": {"custom_model_data": 6370105},"model": "recipes/hammers/diamond"},
+        {"predicate": {"custom_model_data": 6370106},"model": "recipes/hammers/netherite"}
+
+        ]
+	
+}

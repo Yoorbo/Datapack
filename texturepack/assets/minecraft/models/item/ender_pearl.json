@@ -1,0 +1,19 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/ender_pearl"
+    },
+    "overrides":
+	[
+    {"predicate": {"custom_model_data": 6370001},"model": "pearl/fast"},
+    {"predicate": {"custom_model_data": 6370002},"model": "pearl/slow"},
+    {"predicate": {"custom_model_data": 6370003},"model": "pearl/hanging"},
+    {"predicate": {"custom_model_data": 6370004},"model": "pearl/infested"},
+    {"predicate": {"custom_model_data": 6370005},"model": "pearl/instant"},
+    {"predicate": {"custom_model_data": 6370006},"model": "pearl/ninja"},
+    {"predicate": {"custom_model_data": 6370007},"model": "pearl/no_gravity"},
+    {"predicate": {"custom_model_data": 6370008},"model": "pearl/swap"},
+    {"predicate": {"custom_model_data": 6370009},"model": "pearl/party"},
+    {"predicate": {"custom_model_data": 6370010},"model": "pearl/drop"}
+    ]
+}

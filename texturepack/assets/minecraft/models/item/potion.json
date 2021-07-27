@@ -1,0 +1,14 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/potion_overlay",
+		"layer1": "item/potion"
+	},
+	"overrides":
+[
+
+	{ "predicate": { "custom_model_data": 1010}, "model": "item/happydrink" },
+	{ "predicate": { "custom_model_data": 1020}, "model": "item/hastedrink" },
+	{ "predicate": { "custom_model_data": 1030}, "model": "item/enderman_juice" }
+]
+}

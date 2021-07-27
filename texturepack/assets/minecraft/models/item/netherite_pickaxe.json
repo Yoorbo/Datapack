@@ -1,0 +1,11 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/netherite_pickaxe"
+    },
+    "overrides":
+	[
+    { "predicate": { "custom_model_data": 23479}, "model": "item/netherite_pickaxe/soulempowered" },
+    {"predicate": {"custom_model_data": 6370001},"model": "hammer/netherite"}
+    ]
+}

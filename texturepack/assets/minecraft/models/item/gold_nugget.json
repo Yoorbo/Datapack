@@ -1,0 +1,70 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/gold_nugget"
+    },
+	"overrides": 
+	[
+				{ "predicate": { "custom_model_data": 6370000}, "model": "blank"},
+				{ "predicate": { "custom_model_data": 6370001}, "model": "zelda/rings/1"},
+				{ "predicate": { "custom_model_data": 6370002}, "model": "zelda/rings/2"},
+				{ "predicate": { "custom_model_data": 6370003}, "model": "zelda/rings/3"},
+				{ "predicate": { "custom_model_data": 6370004}, "model": "zelda/rings/4"},
+				{ "predicate": { "custom_model_data": 6370005}, "model": "zelda/rings/5"},
+				{ "predicate": { "custom_model_data": 6370006}, "model": "zelda/rings/6"},
+				{ "predicate": { "custom_model_data": 6370007}, "model": "zelda/rings/7"},
+				{ "predicate": { "custom_model_data": 6370008}, "model": "zelda/rings/8"},
+				{ "predicate": { "custom_model_data": 6370009}, "model": "zelda/rings/9"},
+				{ "predicate": { "custom_model_data": 6370010}, "model": "zelda/rings/10"},
+				{ "predicate": { "custom_model_data": 6370011}, "model": "zelda/rings/11"},
+				{ "predicate": { "custom_model_data": 6370012}, "model": "zelda/rings/12"},
+				{ "predicate": { "custom_model_data": 6370013}, "model": "zelda/rings/13"},
+				{ "predicate": { "custom_model_data": 6370014}, "model": "zelda/rings/14"},
+				{ "predicate": { "custom_model_data": 6370015}, "model": "zelda/rings/15"},
+				{ "predicate": { "custom_model_data": 6370016}, "model": "zelda/rings/16"},
+				{ "predicate": { "custom_model_data": 6370017}, "model": "zelda/rings/17"},
+				{ "predicate": { "custom_model_data": 6370018}, "model": "zelda/rings/18"},
+				{ "predicate": { "custom_model_data": 6370019}, "model": "zelda/rings/19"},
+				{ "predicate": { "custom_model_data": 6370020}, "model": "zelda/rings/20"},
+				{ "predicate": { "custom_model_data": 6370021}, "model": "zelda/rings/21"},
+				{ "predicate": { "custom_model_data": 6370022}, "model": "zelda/rings/22"},
+				{ "predicate": { "custom_model_data": 6370023}, "model": "zelda/rings/23"},
+				{ "predicate": { "custom_model_data": 6370099}, "model": "zelda/rings/99"},
+				{ "predicate": { "custom_model_data": 6370101}, "model": "zelda/bows/bomb_bow/gone"},
+				{ "predicate": { "custom_model_data": 6370102}, "model": "zelda/bows/fire_bow/gone"},
+				{ "predicate": { "custom_model_data": 6370103}, "model": "zelda/bows/ice_bow/gone"},
+				{ "predicate": { "custom_model_data": 6370104}, "model": "zelda/bows/light_bow/gone"},	
+				{ "predicate": { "custom_model_data": 6370105}, "model": "zelda/bows/lightning_bow/gone"},
+				{ "predicate": { "custom_model_data": 6370106}, "model": "zelda/bombs/bomb"},
+				{ "predicate": { "custom_model_data": 6370107}, "model": "zelda/bombs/square_bomb"},
+				{ "predicate": { "custom_model_data": 6370108}, "model": "zelda/bombs/round_bomb"},
+				{ "predicate": { "custom_model_data": 6370109}, "model": "zelda/bombs/bombchu"},
+				{ "predicate": { "custom_model_data": 6370110}, "model": "zelda/boomerang/boomerang_gone"},
+				{ "predicate": { "custom_model_data": 6370111}, "model": "zelda/boomerang/boomerang_gone2"},
+				{ "predicate": { "custom_model_data": 6370112}, "model": "zelda/hookshot/hookshot_gone"},
+				{ "predicate": { "custom_model_data": 6370113}, "model": "zelda/hookshot/chain"},
+				{ "predicate": { "custom_model_data": 6370114}, "model": "zelda/clawshot/clawshot_gone"},
+				{ "predicate": { "custom_model_data": 6370115}, "model": "zelda/clawshot/chain"},
+				{ "predicate": { "custom_model_data": 6370116}, "model": "zelda/clawshot/hook"},
+				{ "predicate": { "custom_model_data": 6370117}, "model": "zelda/swords/master_beam"},
+
+				{ "predicate": { "custom_model_data": 6370196}, "model": "swords/ender_diamond"},
+				{ "predicate": { "custom_model_data": 6370197}, "model": "crafter/custom_crafter"},
+				
+				{ "predicate": { "custom_model_data": 6370198}, "model": "swords/xp_diamond"},
+				{ "predicate": { "custom_model_data": 6370199}, "model": "swords/rainbow_diamond"},
+				{ "predicate": { "custom_model_data": 6370200}, "model": "machine/ores/coal"},
+				{ "predicate": { "custom_model_data": 6370201}, "model": "machine/ores/iron"},
+				{ "predicate": { "custom_model_data": 6370202}, "model": "machine/ores/gold"},
+				{ "predicate": { "custom_model_data": 6370203}, "model": "machine/ores/lapis"},
+				{ "predicate": { "custom_model_data": 6370204}, "model": "machine/ores/diamond"},
+				{ "predicate": { "custom_model_data": 6370205}, "model": "machine/ores/redstone"},
+				{ "predicate": { "custom_model_data": 6370206}, "model": "machine/ores/emerald"},
+				{ "predicate": { "custom_model_data": 6370207}, "model": "machine/ores/quartz"},
+				
+				{ "predicate": { "custom_model_data": 6370210}, "model": "machine/item/crafting/obsidian_blade"},
+				{ "predicate": { "custom_model_data": 6370211}, "model": "machine/item/crafting/gear"}				
+			
+	]
+	
+}

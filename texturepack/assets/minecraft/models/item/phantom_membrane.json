@@ -1,0 +1,28 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/phantom_membrane"
+    },
+	"overrides": 
+	[
+                { "predicate": { "custom_model_data": 6370001}, "model":  "zelda/mobs/keese/1"},
+                { "predicate": { "custom_model_data": 6370002}, "model":  "zelda/mobs/stalfos/stalfos_skull"},
+				{ "predicate": { "custom_model_data": 6370003}, "model":  "zelda/mobs/stalfos/stalfos_full"},
+				{ "predicate": { "custom_model_data": 6370004}, "model": "zelda/mobs/stalfos/stalfos_broken"},
+				{ "predicate": { "custom_model_data": 6370005}, "model": "zelda/mobs/stalfos/stalfos_broken1"},
+				{ "predicate": { "custom_model_data": 6370006}, "model": "zelda/mobs/stalfos/stalfos_broken2"},
+				{ "predicate": { "custom_model_data": 6370007}, "model": "zelda/mobs/stalfos/stalfos_broken3"},
+				{ "predicate": { "custom_model_data": 6370008}, "model": "zelda/mobs/stalfos/stalfos_broken4"},
+                { "predicate": { "custom_model_data": 6370009}, "model": "zelda/mobs/stalfos/stalfos_broken5"},
+                { "predicate": { "custom_model_data": 6370010}, "model": "zelda/mobs/bokoblin/red_bb_head"},
+				{ "predicate": { "custom_model_data": 6370011}, "model": "zelda/mobs/bokoblin/blue_bb_head"},
+				{ "predicate": { "custom_model_data": 6370012}, "model": "zelda/mobs/bokoblin/black_bb_head"},
+				{ "predicate": { "custom_model_data": 6370013}, "model": "zelda/mobs/bokoblin/white_bb_head"},
+				{ "predicate": { "custom_model_data": 6370014}, "model": "zelda/mobs/bokoblin/gold_bb_head"},
+				{ "predicate": { "custom_model_data": 6370015}, "model": "zelda/mobs/bokoblin/boko_club"},
+				{ "predicate": { "custom_model_data": 6370016}, "model": "zelda/mobs/bokoblin/ordon"},
+				{ "predicate": { "custom_model_data": 6370017}, "model": "zelda/mobs/octorok/body"},
+				{ "predicate": { "custom_model_data": 6370018}, "model": "zelda/mobs/octorok/legs"}				
+	]
+	
+}

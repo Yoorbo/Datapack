@@ -1,0 +1,22 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/iron_sword"
+    },
+    "overrides":
+	[
+    {"predicate": {"custom_model_data": 6370001},"model": "swords/chorus"},
+    {"predicate": {"custom_model_data": 6370002},"model": "swords/cursed"},
+    {"predicate": {"custom_model_data": 6370003},"model": "swords/firework"},
+    {"predicate": {"custom_model_data": 6370004},"model": "swords/fish"},
+    {"predicate": {"custom_model_data": 6370005},"model": "swords/glowstone"},
+    {"predicate": {"custom_model_data": 6370006},"model": "swords/honey"},
+    {"predicate": {"custom_model_data": 6370007},"model": "swords/magma"},
+    {"predicate": {"custom_model_data": 6370008},"model": "swords/piston"},
+    {"predicate": {"custom_model_data": 6370009},"model": "swords/sticky_piston"},
+    {"predicate": {"custom_model_data": 6370010},"model": "swords/emerald"},
+    {"predicate": {"custom_model_data": 6370011},"model": "swords/quartz"},
+    {"predicate": {"custom_model_data": 6370012},"model": "swords/prismarine"},
+    {"predicate": {"custom_model_data": 6370013},"model": "swords/shulker"}
+    ]
+}

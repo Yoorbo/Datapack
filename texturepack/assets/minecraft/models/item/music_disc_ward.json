@@ -1,0 +1,15 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/music_disc_ward"
+    },
+    "overrides":
+	[
+    {"predicate": {"custom_model_data": 6370001},"model": "rupee/green"},
+    {"predicate": {"custom_model_data": 6370002},"model": "rupee/blue"},
+    {"predicate": {"custom_model_data": 6370003},"model": "rupee/yellow"},
+    {"predicate": {"custom_model_data": 6370004},"model": "rupee/red"},
+    {"predicate": {"custom_model_data": 6370005},"model": "rupee/purple"},
+    {"predicate": {"custom_model_data": 6370006},"model": "rupee/gold"}
+    ]
+}

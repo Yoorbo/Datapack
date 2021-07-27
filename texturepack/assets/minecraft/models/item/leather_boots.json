@@ -1,0 +1,15 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/leather_boots",
+        "layer1": "item/leather_boots_overlay"
+    },
+	"overrides": 
+	[
+                { "predicate": { "custom_model_data": 6370001}, "model": "boots/1"},
+                { "predicate": { "custom_model_data": 6370002}, "model": "boots/2"},	
+                { "predicate": { "custom_model_data": 6370003}, "model": "boots/3"},	
+                { "predicate": { "custom_model_data": 6370004}, "model": "boots/4"},	
+                { "predicate": { "custom_model_data": 6370005}, "model": "boots/5"}			
+	]
+}

@@ -1,0 +1,12 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/emerald"
+    },
+    "overrides":
+	[
+        {"predicate": {"custom_model_data": 6370001},"model": "camp/campbuck"},
+        {"predicate": {"custom_model_data": 6370002},"model": "camp/gold_campbuck"},
+        {"predicate": {"custom_model_data": 6370003},"model": "camp/diamond_campbuck"}
+    ]
+}

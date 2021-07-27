@@ -1,0 +1,56 @@
+{
+    "parent": "item/handheld_rod",
+    "textures": {
+        "layer0": "item/carrot_on_a_stick"
+    },
+	"overrides":
+	[
+	{"predicate": {"custom_model_data": 6370001},"model": "zelda/rods/fire"},
+	{"predicate": {"custom_model_data": 6370002},"model": "zelda/rods/ice"},
+	{"predicate": {"custom_model_data": 6370003},"model": "zelda/rods/lightning"},
+	{"predicate": {"custom_model_data": 6370004},"model": "zelda/rods/meteor"},
+	{"predicate": {"custom_model_data": 6370005},"model": "zelda/rods/blizzard"},
+	{"predicate": {"custom_model_data": 6370006},"model": "zelda/rods/thunder"},
+	{"predicate": {"custom_model_data": 6370007},"model": "zelda/swords/master_0"},
+	{"predicate": {"custom_model_data": 6370008},"model": "zelda/bombs/bomb"},
+	{"predicate": {"custom_model_data": 6370009},"model": "zelda/swords/master_1"},
+	{"predicate": {"custom_model_data": 6370010},"model": "zelda/swords/master_2"},
+	{"predicate": {"custom_model_data": 6370011},"model": "zelda/swords/master_3"},
+	{"predicate": {"custom_model_data": 6370012},"model": "zelda/bombs/square_bomb_det"},
+	{"predicate": {"custom_model_data": 6370013},"model": "zelda/bombs/square_bomb_inv"},
+	{"predicate": {"custom_model_data": 6370014},"model": "zelda/bombs/round_bomb_det"},
+	{"predicate": {"custom_model_data": 6370015},"model": "zelda/bombs/round_bomb_inv"},
+	{"predicate": {"custom_model_data": 6370016},"model": "zelda/bombs/bombchu_inv"},
+	{"predicate": {"custom_model_data": 6370017},"model": "zelda/medallions/ether"},
+	{"predicate": {"custom_model_data": 6370018},"model": "zelda/medallions/quake"},
+	{"predicate": {"custom_model_data": 6370019},"model": "zelda/medallions/bombos"},
+	{"predicate": {"custom_model_data": 6370020},"model": "zelda/carrot_sticks/20"},
+	{"predicate": {"custom_model_data": 6370021},"model": "zelda/carrot_sticks/21"},
+	{"predicate": {"custom_model_data": 6370022},"model": "zelda/carrot_sticks/22"},
+	{"predicate": {"custom_model_data": 6370023},"model": "zelda/carrot_sticks/23"},
+	{"predicate": {"custom_model_data": 6370024},"model": "zelda/carrot_sticks/24"},
+	{"predicate": {"custom_model_data": 6370025},"model": "zelda/boomerang/boomerang"},
+	{"predicate": {"custom_model_data": 6370026},"model": "zelda/boomerang/boomerang2"},
+	{"predicate": {"custom_model_data": 6370027},"model": "zelda/hookshot/hookshot"},
+	{"predicate": {"custom_model_data": 6370028},"model": "zelda/clawshot/clawshot"},
+  	{ "predicate": { "custom_model_data": 2340}, "model": "item/carrot_on_a_stick/boomerang" },
+	{ "predicate": { "custom_model_data": 2341}, "model": "item/carrot_on_a_stick/fire_wand" },
+	{ "predicate": { "custom_model_data": 2342}, "model": "item/carrot_on_a_stick/grapple" },
+	{ "predicate": { "custom_model_data": 2343}, "model": "item/carrot_on_a_stick/grapple2" },
+	{ "predicate": { "custom_model_data": 2344}, "model": "item/carrot_on_a_stick/heated_iron" },
+  	{ "predicate": { "custom_model_data": 2345}, "model": "item/carrot_on_a_stick/battlehorn" },
+		{ "predicate": { "custom_model_data": 266763}, "model": "item/carrot_on_a_stick/soulstaff" },
+
+
+	{"predicate": {"custom_model_data": 6370100},"model": "redstone/handheld_transmitter"},
+
+	{"predicate": {"custom_model_data": 6370200},"model": "spears/diamond"},
+
+
+	{"predicate": {"custom_model_data": 6370220},"model": "apples/i_block"},
+
+	{"predicate": {"custom_model_data": 6370301},"model": "swords/enderman"},
+    {"predicate": {"custom_model_data": 6370302},"model": "swords/ender_diamond_sword"}
+
+	]
+}

@@ -1,0 +1,176 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/bow"
+    },
+   "display": {
+        "thirdperson_righthand": {
+            "rotation": [ -80, 260, -40 ],
+            "translation": [ -1, -2, 2.5 ],
+            "scale": [ 0.9, 0.9, 0.9 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ -80, -280, 40 ],
+            "translation": [ -1, -2, 2.5 ],
+            "scale": [ 0.9, 0.9, 0.9 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, -90, 25 ],
+            "translation": [ 1.13, 4.2, 1.13],
+            "scale": [ 0.68, 0.68, 0.68 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 0, 90, -25 ],
+            "translation": [ 1.13, 4.2, 1.13],
+            "scale": [ 0.68, 0.68, 0.68 ]
+        }
+    },
+    "overrides": [
+        {"predicate": {"pulling": 1},"model": "item/bow_pulling_0"},
+        {"predicate": {"pulling": 1,"pull": 0.65},"model": "item/bow_pulling_1"},
+        {"predicate": {"pulling": 1,"pull": 0.9},"model": "item/bow_pulling_2"},
+		
+		{"predicate": {"custom_model_data": 6370001},"model": "zelda/bows/bomb_bow/standby"},
+		{"predicate": {"pulling": 1, "custom_model_data": 1},"model": "zelda/bows/bomb_bow/pulling_1-1"},
+		{"predicate": {"pulling": 1,"pull": 0.40, "custom_model_data": 6370001},"model": "zelda/bows/bomb_bow/pulling_1-2"},
+		{"predicate": {"pulling": 1,"pull": 0.50, "custom_model_data": 6370001},"model": "zelda/bows/bomb_bow/pulling_1-3"},
+        {"predicate": {"pulling": 1,"pull": 0.65, "custom_model_data": 6370001},"model": "zelda/bows/bomb_bow/pulling_2-1"},
+		{"predicate": {"pulling": 1,"pull": 0.75, "custom_model_data": 6370001},"model": "zelda/bows/bomb_bow/pulling_2-2"},
+		{"predicate": {"pulling": 1,"pull": 0.85, "custom_model_data": 6370001},"model": "zelda/bows/bomb_bow/pulling_2-3"},
+        {"predicate": {"pulling": 1,"pull": 0.90, "custom_model_data": 6370001},"model": "zelda/bows/bomb_bow/pulling_3-1"},
+		{"predicate": {"pulling": 1,"pull": 0.95, "custom_model_data": 6370001},"model": "zelda/bows/bomb_bow/pulling_3-2"},
+		{"predicate": {"pulling": 1,"pull": 1.0, "custom_model_data": 6370001},"model": "zelda/bows/bomb_bow/pulling_3-3"},
+		
+		{"predicate": {"custom_model_data": 6370002},"model": "zelda/bows/fire_bow/standby"},
+		{"predicate": {"pulling": 1, "custom_model_data": 6370002},"model": "zelda/bows/fire_bow/pulling_1"},
+        {"predicate": {"pulling": 1,"pull": 0.65, "custom_model_data": 6370002},"model": "zelda/bows/fire_bow/pulling_2"},
+        {"predicate": {"pulling": 1,"pull": 0.9, "custom_model_data": 6370002},"model": "zelda/bows/fire_bow/pulling_3"},
+		
+		{"predicate": {"custom_model_data": 6370003},"model": "zelda/bows/ice_bow/standby"},
+		{"predicate": {"pulling": 1, "custom_model_data": 6370003},"model": "zelda/bows/ice_bow/pulling_1"},
+        {"predicate": {"pulling": 1,"pull": 0.65, "custom_model_data": 6370003},"model": "zelda/bows/ice_bow/pulling_2"},
+        {"predicate": {"pulling": 1,"pull": 0.9, "custom_model_data": 6370003},"model": "zelda/bows/ice_bow/pulling_3"},
+		
+		{"predicate": {"custom_model_data": 6370004},"model": "zelda/bows/light_bow/standby"},
+		{"predicate": {"pulling": 1, "custom_model_data": 6370004},"model": "zelda/bows/light_bow/pulling_1"},
+        {"predicate": {"pulling": 1,"pull": 0.65, "custom_model_data": 6370004},"model": "zelda/bows/light_bow/pulling_2"},
+        {"predicate": {"pulling": 1,"pull": 0.9, "custom_model_data": 6370004},"model": "zelda/bows/light_bow/pulling_3"},
+
+        {"predicate": {"custom_model_data": 6370005},"model": "zelda/bows/lightning_bow/standby"},
+		{"predicate": {"pulling": 1, "custom_model_data": 6370005},"model": "zelda/bows/lightning_bow/pulling_1"},
+        {"predicate": {"pulling": 1,"pull": 0.65, "custom_model_data": 6370005},"model": "zelda/bows/lightning_bow/pulling_2"},
+        {"predicate": {"pulling": 1,"pull": 0.9, "custom_model_data": 6370005},"model": "zelda/bows/lightning_bow/pulling_3"},
+
+
+
+
+
+
+
+        {"predicate": {"custom_model_data": 6370101},"model": "bows/ice/bow"},
+		{"predicate": {"pulling": 1, "custom_model_data": 6370101},"model": "bows/ice/bow_pulling_0"},
+        {"predicate": {"pulling": 1,"pull": 0.65, "custom_model_data": 6370101},"model": "bows/ice/bow_pulling_1"},
+        {"predicate": {"pulling": 1,"pull": 0.9, "custom_model_data": 6370101},"model": "bows/ice/bow_pulling_2"},
+
+        {"predicate": {"custom_model_data": 6370102},"model": "bows/lightning/bow"},
+		{"predicate": {"pulling": 1, "custom_model_data": 6370102},"model": "bows/lightning/bow_pulling_0"},
+        {"predicate": {"pulling": 1,"pull": 0.65, "custom_model_data": 6370102},"model": "bows/lightning/bow_pulling_1"},
+        {"predicate": {"pulling": 1,"pull": 0.9, "custom_model_data": 6370102},"model": "bows/lightning/bow_pulling_2"},
+
+        {"predicate": {"custom_model_data": 6370103},"model": "bows/honey/bow"},
+		{"predicate": {"pulling": 1, "custom_model_data": 6370103},"model": "bows/honey/bow_pulling_0"},
+        {"predicate": {"pulling": 1,"pull": 0.65, "custom_model_data": 6370103},"model": "bows/honey/bow_pulling_1"},
+        {"predicate": {"pulling": 1,"pull": 0.9, "custom_model_data": 6370103},"model": "bows/honey/bow_pulling_2"},
+
+        {"predicate": {"custom_model_data": 6370104},"model": "bows/slime/bow"},
+		{"predicate": {"pulling": 1, "custom_model_data": 6370104},"model": "bows/slime/bow_pulling_0"},
+        {"predicate": {"pulling": 1,"pull": 0.65, "custom_model_data": 6370104},"model": "bows/slime/bow_pulling_1"},
+        {"predicate": {"pulling": 1,"pull": 0.9, "custom_model_data": 6370104},"model": "bows/slime/bow_pulling_2"},
+
+        {"predicate": {"custom_model_data": 6370105},"model": "bows/firework/bow"},
+		{"predicate": {"pulling": 1, "custom_model_data": 6370105},"model": "bows/firework/bow_pulling_0"},
+        {"predicate": {"pulling": 1,"pull": 0.65, "custom_model_data": 6370105},"model": "bows/firework/bow_pulling_1"},
+        {"predicate": {"pulling": 1,"pull": 0.9, "custom_model_data": 6370105},"model": "bows/firework/bow_pulling_2"},
+
+        {"predicate": {"custom_model_data": 6370106},"model": "bows/tnt/bow"},
+		{"predicate": {"pulling": 1, "custom_model_data": 6370106},"model": "bows/tnt/bow_pulling_0"},
+        {"predicate": {"pulling": 1,"pull": 0.65, "custom_model_data": 6370106},"model": "bows/tnt/bow_pulling_1"},
+        {"predicate": {"pulling": 1,"pull": 0.9, "custom_model_data": 6370106},"model": "bows/tnt/bow_pulling_2"},
+
+        {"predicate": {"custom_model_data": 6370107},"model": "bows/critical/bow"},
+		{"predicate": {"pulling": 1, "custom_model_data": 6370107},"model": "bows/critical/bow_pulling_0"},
+        {"predicate": {"pulling": 1,"pull": 0.65, "custom_model_data": 6370107},"model": "bows/critical/bow_pulling_1"},
+        {"predicate": {"pulling": 1,"pull": 0.9, "custom_model_data": 6370107},"model": "bows/critical/bow_pulling_2"},
+
+        {"predicate": {"custom_model_data": 6370108},"model": "bows/rainbow/bow"},
+		{"predicate": {"pulling": 1, "custom_model_data": 6370108},"model": "bows/rainbow/bow_pulling_0"},
+        {"predicate": {"pulling": 1,"pull": 0.65, "custom_model_data": 6370108},"model": "bows/rainbow/bow_pulling_1"},
+        {"predicate": {"pulling": 1,"pull": 0.9, "custom_model_data": 6370108},"model": "bows/rainbow/bow_pulling_2"},
+
+        {"predicate": {"custom_model_data": 6370109},"model": "bows/quartz/bow"},
+		{"predicate": {"pulling": 1, "custom_model_data": 6370109},"model": "bows/quartz/bow_pulling_0"},
+        {"predicate": {"pulling": 1,"pull": 0.65, "custom_model_data": 6370109},"model": "bows/quartz/bow_pulling_1"},
+        {"predicate": {"pulling": 1,"pull": 0.9, "custom_model_data": 6370109},"model": "bows/quartz/bow_pulling_2"},
+
+        {"predicate": {"custom_model_data": 6370110},"model": "bows/prismarine/bow"},
+		{"predicate": {"pulling": 1, "custom_model_data": 6370110},"model": "bows/prismarine/bow_pulling_0"},
+        {"predicate": {"pulling": 1,"pull": 0.65, "custom_model_data": 6370110},"model": "bows/prismarine/bow_pulling_1"},
+        {"predicate": {"pulling": 1,"pull": 0.9, "custom_model_data": 6370110},"model": "bows/prismarine/bow_pulling_2"},
+
+        {"predicate": {"custom_model_data": 6370111},"model": "bows/shulker/bow"},
+		{"predicate": {"pulling": 1, "custom_model_data": 6370111},"model": "bows/shulker/bow_pulling_0"},
+        {"predicate": {"pulling": 1,"pull": 0.65, "custom_model_data": 6370111},"model": "bows/shulker/bow_pulling_1"},
+        {"predicate": {"pulling": 1,"pull": 0.9, "custom_model_data": 6370111},"model": "bows/shulker/bow_pulling_2"},
+
+        {"predicate": {"custom_model_data": 6370112},"model": "bows/chorus/bow"},
+		{"predicate": {"pulling": 1, "custom_model_data": 6370112},"model": "bows/chorus/bow_pulling_0"},
+        {"predicate": {"pulling": 1,"pull": 0.65, "custom_model_data": 6370112},"model": "bows/chorus/bow_pulling_1"},
+        {"predicate": {"pulling": 1,"pull": 0.9, "custom_model_data": 6370112},"model": "bows/chorus/bow_pulling_2"},
+
+        {"predicate": {"custom_model_data": 6370113},"model": "bows/no_gravity/bow"},
+		{"predicate": {"pulling": 1, "custom_model_data": 6370113},"model": "bows/no_gravity/bow_pulling_0"},
+        {"predicate": {"pulling": 1,"pull": 0.65, "custom_model_data": 6370113},"model": "bows/no_gravity/bow_pulling_1"},
+        {"predicate": {"pulling": 1,"pull": 0.9, "custom_model_data": 6370113},"model": "bows/no_gravity/bow_pulling_2"},
+
+        {"predicate": {"custom_model_data": 6370114},"model": "bows/angel/bow"},
+		{"predicate": {"pulling": 1, "custom_model_data": 6370114},"model": "bows/angel/bow_pulling_0"},
+        {"predicate": {"pulling": 1,"pull": 0.65, "custom_model_data": 6370114},"model": "bows/angel/bow_pulling_1"},
+        {"predicate": {"pulling": 1,"pull": 0.9, "custom_model_data": 6370114},"model": "bows/angel/bow_pulling_2"},
+
+        {"predicate": {"custom_model_data": 6370115},"model": "bows/glowstone/bow"},
+		{"predicate": {"pulling": 1, "custom_model_data": 6370115},"model": "bows/glowstone/bow_pulling_0"},
+        {"predicate": {"pulling": 1,"pull": 0.65, "custom_model_data": 6370115},"model": "bows/glowstone/bow_pulling_1"},
+        {"predicate": {"pulling": 1,"pull": 0.9, "custom_model_data": 6370115},"model": "bows/glowstone/bow_pulling_2"},
+
+        {"predicate": {"custom_model_data": 6370116},"model": "bows/wither/bow"},
+		{"predicate": {"pulling": 1, "custom_model_data": 6370116},"model": "bows/wither/bow_pulling_0"},
+        {"predicate": {"pulling": 1,"pull": 0.65, "custom_model_data": 6370116},"model": "bows/wither/bow_pulling_1"},
+        {"predicate": {"pulling": 1,"pull": 0.9, "custom_model_data": 6370116},"model": "bows/wither/bow_pulling_2"},
+
+        {"predicate": {"custom_model_data": 6370117},"model": "bows/emerald/bow"},
+		{"predicate": {"pulling": 1, "custom_model_data": 6370117},"model": "bows/emerald/bow_pulling_0"},
+        {"predicate": {"pulling": 1,"pull": 0.65, "custom_model_data": 6370117},"model": "bows/emerald/bow_pulling_1"},
+        {"predicate": {"pulling": 1,"pull": 0.9, "custom_model_data": 6370117},"model": "bows/emerald/bow_pulling_2"},
+
+        {"predicate": {"custom_model_data": 6370118},"model": "bows/sniper/bow"},
+		{"predicate": {"pulling": 1, "custom_model_data": 6370118},"model": "bows/sniper/bow_pulling_0"},
+        {"predicate": {"pulling": 1,"pull": 0.65, "custom_model_data": 6370118},"model": "bows/sniper/bow_pulling_1"},
+        {"predicate": {"pulling": 1,"pull": 0.9, "custom_model_data": 6370118},"model": "bows/sniper/bow_pulling_2"},
+
+        {"predicate": {"custom_model_data": 6370119},"model": "bows/short_range/bow"},
+		{"predicate": {"pulling": 1, "custom_model_data": 6370119},"model": "bows/short_range/bow_pulling_0"},
+        {"predicate": {"pulling": 1,"pull": 0.65, "custom_model_data": 6370119},"model": "bows/short_range/bow_pulling_1"},
+        {"predicate": {"pulling": 1,"pull": 0.9, "custom_model_data": 6370119},"model": "bows/short_range/bow_pulling_2"},
+
+        {"predicate": {"custom_model_data": 6370120},"model": "bows/random/bow"},
+		{"predicate": {"pulling": 1, "custom_model_data": 6370120},"model": "bows/random/bow_pulling_0"},
+        {"predicate": {"pulling": 1,"pull": 0.65, "custom_model_data": 6370120},"model": "bows/random/bow_pulling_1"},
+        {"predicate": {"pulling": 1,"pull": 0.9, "custom_model_data": 6370120},"model": "bows/random/bow_pulling_2"},
+
+        {"predicate": {"custom_model_data": 6370121},"model": "bows/armor_piercing/bow"},
+		{"predicate": {"pulling": 1, "custom_model_data": 6370121},"model": "bows/armor_piercing/bow_pulling_0"},
+        {"predicate": {"pulling": 1,"pull": 0.65, "custom_model_data": 6370121},"model": "bows/armor_piercing/bow_pulling_1"},
+        {"predicate": {"pulling": 1,"pull": 0.9, "custom_model_data": 6370121},"model": "bows/armor_piercing/bow_pulling_2"}
+
+    ]
+}

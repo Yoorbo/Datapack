@@ -1,0 +1,16 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/wooden_sword"
+    },
+    "overrides":
+	[
+    {"predicate": {"custom_model_data": 6370001},"model": "swords/sponge"},
+    {"predicate": {"custom_model_data": 6370002},"model": "swords/ice"},
+    {"predicate": {"custom_model_data": 6370003},"model": "swords/random"},
+    {"predicate": {"custom_model_data": 6370004},"model": "swords/obsidian"},
+    {"predicate": {"custom_model_data": 6370005},"model": "swords/slime"},
+    {"predicate": {"custom_model_data": 6370006},"model": "swords/stick"},
+    {"predicate": {"custom_model_data": 6370007},"model": "swords/bread"}
+    ]
+}

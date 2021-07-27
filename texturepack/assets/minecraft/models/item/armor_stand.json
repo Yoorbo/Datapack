@@ -1,0 +1,42 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/armor_stand"
+    },
+    "overrides":
+	[
+    {"predicate": {"custom_model_data": 6370001},"model": "redstone/receiver_item"},
+    {"predicate": {"custom_model_data": 6370002},"model": "redstone/transmitter_item"},
+    {"predicate": {"custom_model_data": 6370003},"model": "redstone/receiver"},
+    {"predicate": {"custom_model_data": 6370004},"model": "redstone/transmitter"},
+    {"predicate": {"custom_model_data": 6370005},"model": "redstone/detector_item_player"},
+    {"predicate": {"custom_model_data": 6370006},"model": "redstone/detector_item_passive"},
+    {"predicate": {"custom_model_data": 6370007},"model": "redstone/detector_item_hostile"},
+    {"predicate": {"custom_model_data": 6370008},"model": "redstone/detector_player"},
+    {"predicate": {"custom_model_data": 6370009},"model": "redstone/detector_passive"},
+    {"predicate": {"custom_model_data": 6370010},"model": "redstone/detector_hostile"},
+    {"predicate": {"custom_model_data": 6370011},"model": "redstone/collector_item"},
+    {"predicate": {"custom_model_data": 6370012},"model": "redstone/collector"},
+
+    {"predicate": {"custom_model_data": 6370101},"model": "machine/item/crusher"},
+    {"predicate": {"custom_model_data": 6370102},"model": "machine/crusher"},
+    {"predicate": {"custom_model_data": 6370103},"model": "machine/item/washer"},
+    {"predicate": {"custom_model_data": 6370104},"model": "machine/washer"},
+    {"predicate": {"custom_model_data": 6370105},"model": "machine/washer_blade"},
+    {"predicate": {"custom_model_data": 6370106},"model": "machine/item/saturator"},
+    {"predicate": {"custom_model_data": 6370107},"model": "machine/saturator"},
+    {"predicate": {"custom_model_data": 6370108},"model": "machine/item/breaker"},
+    {"predicate": {"custom_model_data": 6370109},"model": "machine/breaker"},
+    {"predicate": {"custom_model_data": 6370110},"model": "machine/breaker_up"},
+    {"predicate": {"custom_model_data": 6370111},"model": "machine/breaker_down"},
+    {"predicate": {"custom_model_data": 6370112},"model": "machine/item/placer"},
+    {"predicate": {"custom_model_data": 6370113},"model": "machine/placer"},
+    {"predicate": {"custom_model_data": 6370114},"model": "machine/placer_up"},
+    {"predicate": {"custom_model_data": 6370115},"model": "machine/placer_down"},
+    {"predicate": {"custom_model_data": 6370116},"model": "machine/item/sprinler"},
+    {"predicate": {"custom_model_data": 6370117},"model": "machine/sprinler"},
+    {"predicate": {"custom_model_data": 6370118},"model": "machine/item/farmer"},
+    {"predicate": {"custom_model_data": 6370119},"model": "machine/farmer"}
+   
+    ]
+}

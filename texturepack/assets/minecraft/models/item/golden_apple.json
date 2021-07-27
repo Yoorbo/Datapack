@@ -1,0 +1,13 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/golden_apple"
+    },
+	"overrides": 
+	[
+                { "predicate": { "custom_model_data": 6370001}, "model": "apples/spectator"},
+                { "predicate": { "custom_model_data": 6370002}, "model": "apples/rotten"},
+                { "predicate": { "custom_model_data": 6370003}, "model": "apples/poison"}			
+	]
+	
+}

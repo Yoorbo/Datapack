@@ -15,6 +15,7 @@ scoreboard objectives add r_soulspecter minecraft.used:minecraft.carrot_on_a_sti
 scoreboard objectives add soulzombie dummy
 scoreboard players add soulzombie_count soulzombie 0
 #raycasts
+scoreboard objectives add r_soulpiercer minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add soul_raycast dummy
 scoreboard objectives add soulpierced dummy
 #sleepscoreboard

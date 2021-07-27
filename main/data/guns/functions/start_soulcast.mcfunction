@@ -1,5 +1,5 @@
 ## Call this on entities which launch the raycast
-
+say deneux
 # Tag prevents current caster from being detected
 tag @s add raycasting
 

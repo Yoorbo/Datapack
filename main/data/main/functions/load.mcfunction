@@ -14,6 +14,8 @@ scoreboard objectives add battlhorn_uses dummy
 scoreboard objectives add r_soulspecter minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add soulzombie dummy
 scoreboard players add soulzombie_count soulzombie 0
+#raycasts
+scoreboard objectives add soul_raycast dummy
 #sleepscoreboard
 scoreboard objectives add sleep dummy
 #elytrascoreboard

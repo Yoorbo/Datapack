@@ -5,4 +5,4 @@ tag @s add not_soulzombie
 ## Increment count
 scoreboard players add soulzombie_count soulzombie 1
 # Reset count
-execute if score soulzombie_count soulzombie matches 20 run scoreboard players set soulzombie_count soulzombie 0
+execute if score soulzombie_count soulzombie matches 40 run scoreboard players set soulzombie_count soulzombie 0

@@ -7,7 +7,7 @@ kill @e[type=#minecraft:arrows,distance=..50]
 kill @e[type=#minecraft:impact_projectiles,distance=..50]
 execute as @e[type=!#guns:dont_target,type=!player,name=!BadlandsChugs,distance=..50] at @s run tp @s ^ ^0.4 ^-0.8
 effect give @e[type=#guns:dont_target,distance=..30] minecraft:regeneration 1 1 true
-effect give @e[type=player,distance=..30] minecraft:regeneration 1 1 true
+effect give @e[type=player,distance=..30] minecraft:regeneration 1 2 true
 kill @e[type=tnt,distance=..50]
 fill ~1 ~1 ~1 ~-1 ~-1 ~-1 minecraft:glass
 kill @e[type=item,nbt={Item:{id:"minecraft:glass",Count:1b}},distance=..2]

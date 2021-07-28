@@ -9,8 +9,7 @@ execute as @e[tag=soulspecter] at @s anchored eyes run tag @e[tag=!soulgrabbed,d
 execute as @e[tag=soulspecter] at @s run particle minecraft:ash ~ ~ ~ 0.1 0.1 0.1 1 20
 execute as @e[tag=soulspecter] at @s run data merge entity @s {Fire:-20}
 execute as @e[tag=soulspecter] at @s run kill @e[type=arrow,distance=..1]
-execute as @e[tag=returning] at @s run particle minecraft:ash ~ ~ ~ 0.1 0.1 0.1 1 20
-execute as @e[tag=returning] at @s run particle minecraft:falling_dust minecraft:warped_planks ~ ~ ~ 0.1 0.1 0.1 0.1 1
+execute as @e[tag=returning] at @s run particle dust_color_transition 0.000 1.000 0.933 1 0.000 1.000 0.400 ~ ~ ~ 0.1 0.1 0.1 1 1
 execute as @e[tag=returning] at @s run data merge entity @s {Fire:-20}
 execute as @e[tag=returning] at @s anchored eyes facing entity @a[tag=soulspecterowner,limit=1,sort=nearest] eyes positioned ^ ^ ^2 rotated as @s positioned ^ ^ ^5 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ^ ^ ^0.2 ~ ~
 execute at @a[tag=soulspecterowner] as @e[tag=returning, distance=..1] run function specters:kill_returning

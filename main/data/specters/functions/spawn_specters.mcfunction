@@ -22,5 +22,5 @@ summon minecraft:armor_stand ~ ~ ~ {Tags:["soulspecter"],NoGravity:1b,Invisible:
 summon minecraft:armor_stand ~ ~ ~ {Tags:["soulspecter"],NoGravity:1b,Invisible:1b,Invulnerable:1b}
 summon minecraft:armor_stand ~ ~ ~ {Tags:["soulspecter"],NoGravity:1b,Invisible:1b,Invulnerable:1b}
 summon minecraft:armor_stand ~ ~ ~ {Tags:["soulspecter"],NoGravity:1b,Invisible:1b,Invulnerable:1b}
-particle minecraft:falling_dust minecraft:warped_planks ~ ~ ~ 20 20 20 0.1 5000
+particle dust_color_transition 0.000 1.000 0.933 1 0.000 1.000 0.400 ~ ~ ~ 20 20 20 0.1 5000
 scoreboard players set @e[tag=soulspecter] soulspecterlife 320

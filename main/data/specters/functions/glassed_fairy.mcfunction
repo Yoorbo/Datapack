@@ -8,3 +8,4 @@ effect give @e[type=player,distance=..30] minecraft:regeneration 1 1 true
 kill @e[type=tnt,distance=..50]
 fill ~1 ~1 ~1 ~-1 ~-1 ~-1 minecraft:glass
 kill @e[type=item,nbt={Item:{id:"minecraft:glass",Count:1b}},distance=..2]
+execute as @s at @s if entity @a[tag=!fairyowner,limit=1,sort=nearest,distance=..5,nbt={SelectedItem:{id:"minecraft:golden_carrot"}}] run function specters:unglass_fairy

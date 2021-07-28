@@ -49,6 +49,19 @@
     "minecraft:pig",
     "minecraft:horse",
     "minecraft:cat",
-    "minecraft:parrot"
+    "minecraft:parrot",
+    "minecraft:goat",
+    "minecraft:squid",
+    "minecraft:glow_squid",
+    "minecraft:chicken",
+    "minecraft:donkey",
+    "minecraft:mule",
+    "minecraft:cod",
+    "minecraft:salmon",
+    "minecraft:turtle",
+    "minecraft:tropical_fish",
+    "minecraft:strider",
+    "minecraft:panda",
+    "minecraft:polar_bear"
   ]
 }

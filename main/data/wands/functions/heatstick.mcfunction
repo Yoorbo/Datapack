@@ -22,11 +22,11 @@ scoreboard players remove @e[scores={destroy_item=1..}] destroy_item 1
 
 
 
-execute at @e[nbt={SelectedItem:{id:"minecraft:netherite_sword",tag:{soulsword:1b}}}] run effect give @e[distance=..6,type=!player,tag=!soulzombie1,type=!#guns:dont_target,nbt=!{SelectedItem:{id:"minecraft:netherite_sword",tag:{soulsword:1b}}}] minecraft:wither 4 1 true
-execute as @e[nbt={SelectedItem:{id:"minecraft:netherite_sword",tag:{soulsword:1b}}}] at @s run execute as @e[distance=..6,tag=!soulzombie1,type=!#guns:dont_target] at @s run particle minecraft:ash ~ ~ ~ 0.4 0.4 0.4 0.15 10
-execute as @e[nbt={SelectedItem:{id:"minecraft:netherite_sword",tag:{soulsword:1b}}}] at @s run execute as @e[distance=..6,tag=!soulzombie1,type=!#guns:dont_target] at @s run particle minecraft:soul ~ ~0.3 ~ 0.4 0.4 0.4 0.01 1
-execute as @e[nbt={SelectedItem:{id:"minecraft:netherite_sword",tag:{soulsword:1b}}}] at @s run execute as @e[distance=..6,tag=!soulzombie1,type=!player,type=!#guns:dont_target,limit=2] at @s run tp @s ~ ~0.1 ~
-execute as @e[nbt={SelectedItem:{id:"minecraft:netherite_sword",tag:{soulsword:1b}}}] at @s run execute as @e[distance=..6,tag=!soulzombie1,type=!player,type=!#guns:dont_target,limit=1] at @s run playsound minecraft:block.conduit.ambient.short master @a
+execute at @e[nbt={SelectedItem:{id:"minecraft:netherite_sword",tag:{soulsword:1b}}}] run effect give @e[distance=..6,type=!player,tag=!soulzombie1,name=!BadlandsChugs,type=!#guns:dont_target,nbt=!{SelectedItem:{id:"minecraft:netherite_sword",tag:{soulsword:1b}}}] minecraft:wither 4 1 true
+execute as @e[nbt={SelectedItem:{id:"minecraft:netherite_sword",tag:{soulsword:1b}}}] at @s run execute as @e[distance=..6,tag=!soulzombie1,name=!BadlandsChugs,type=!#guns:dont_target] at @s run particle minecraft:ash ~ ~ ~ 0.4 0.4 0.4 0.15 10
+execute as @e[nbt={SelectedItem:{id:"minecraft:netherite_sword",tag:{soulsword:1b}}}] at @s run execute as @e[distance=..6,tag=!soulzombie1,name=!BadlandsChugs,type=!#guns:dont_target] at @s run particle minecraft:soul ~ ~0.3 ~ 0.4 0.4 0.4 0.01 1
+execute as @e[nbt={SelectedItem:{id:"minecraft:netherite_sword",tag:{soulsword:1b}}}] at @s run execute as @e[distance=..6,tag=!soulzombie1,name=!BadlandsChugs,type=!player,type=!#guns:dont_target,limit=2] at @s run tp @s ~ ~0.1 ~
+execute as @e[nbt={SelectedItem:{id:"minecraft:netherite_sword",tag:{soulsword:1b}}}] at @s run execute as @e[distance=..6,tag=!soulzombie1,name=!BadlandsChugs,type=!player,type=!#guns:dont_target,limit=1] at @s run playsound minecraft:block.conduit.ambient.short master @a
 
 execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:shield",tag:{projectileshield:1b}}]}] at @s run execute as @e[distance=..6,type=#minecraft:arrows] at @s run playsound minecraft:block.note_block.harp master @a
 execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:shield",tag:{projectileshield:1b}}]}] at @s run execute as @e[distance=..6,type=#minecraft:arrows] at @s run playsound minecraft:block.note_block.bit master @a

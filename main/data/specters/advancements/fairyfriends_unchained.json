@@ -1,14 +1,15 @@
 {
     "display": {
         "title": {
-            "text": "Ein sicherer Hafen",
+            "text": "Freunde durch Dimensionen",
             "color": "light_purple"
         },
         "description": {
-            "text": "Wähle einen Ort für deine Fee an dem sie bleiben kann"
+            "text": "Bringe deine Fee auf Level 4"
         },
         "icon": {
-            "item": "minecraft:pink_stained_glass"
+            "item": "minecraft:pink_dye",
+            "nbt": "{CustomModelData:99678}"
         },
         "frame": "challenge",
         "show_toast": true,
@@ -31,5 +32,5 @@
     "rewards": {
         "experience": 1000
     },
-    "parent": "specters:best_fairyfriends"
+    "parent": "specters:fairyfriends_forever"
 }

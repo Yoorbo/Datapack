@@ -10,6 +10,7 @@ effect give @e[type=#guns:dont_target,distance=..30] minecraft:regeneration 1 1 
 effect give @e[type=player,distance=..30] minecraft:regeneration 1 2 true
 kill @e[type=tnt,distance=..50]
 fill ~1 ~1 ~1 ~-1 ~-1 ~-1 minecraft:glass
+setblock ~ ~2 ~ minecraft:light
 kill @e[type=item,nbt={Item:{id:"minecraft:glass",Count:1b}},distance=..2]
-execute as @s at @s if entity @a[tag=!fairyowner,limit=1,sort=nearest,distance=..5,nbt={SelectedItem:{id:"minecraft:golden_carrot"}}] run function specters:unglass_fairy
+execute as @s at @s if entity @a[tag=!fairyowner,limit=1,sort=nearest,distance=..3,nbt={SelectedItem:{id:"minecraft:golden_carrot"}}] run function specters:unglass_fairy
 execute as @e[type=item,distance=..3,tag=!fairychanted] at @s run function specters:fairy_item_enchant

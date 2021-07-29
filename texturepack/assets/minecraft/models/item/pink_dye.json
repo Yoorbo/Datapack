@@ -8,6 +8,7 @@
 	{ "predicate": { "custom_model_data": 99670}, "model": "item/fairytools/fairydust" },
 	{ "predicate": { "custom_model_data": 99671}, "model": "item/fairytools/fairydust1" },
 	{ "predicate": { "custom_model_data": 99672}, "model": "item/fairytools/fairydust2" },
-	{ "predicate": { "custom_model_data": 99673}, "model": "item/fairytools/fairydust3" }
+	{ "predicate": { "custom_model_data": 99673}, "model": "item/fairytools/fairydust3" },
+	{ "predicate": { "custom_model_data": 99678}, "model": "item/fairytools/fairydust4" }
 ]
 }

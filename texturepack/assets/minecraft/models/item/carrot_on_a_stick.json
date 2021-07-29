@@ -39,6 +39,7 @@
 	{ "predicate": { "custom_model_data": 2343}, "model": "item/carrot_on_a_stick/grapple2" },
 	{ "predicate": { "custom_model_data": 2344}, "model": "item/carrot_on_a_stick/heated_iron" },
   	{ "predicate": { "custom_model_data": 2345}, "model": "item/carrot_on_a_stick/battlehorn" },
+	{ "predicate": { "custom_model_data": 99699}, "model": "item/carrot_on_a_stick/fairystaff" },
 	{ "predicate": { "custom_model_data": 266763}, "model": "item/carrot_on_a_stick/soulstaff" },
 	{ "predicate": { "custom_model_data": 266764}, "model": "item/carrot_on_a_stick/soulpiercer" },
 

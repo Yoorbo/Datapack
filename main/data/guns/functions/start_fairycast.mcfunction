@@ -3,10 +3,10 @@
 tag @s add raycasting
 
 # Anchor to the eyes and position with vector coordinates (Remove if not running from eyes of entity)
-execute anchored eyes positioned ^ ^ ^ run function guns:soulcast
+execute anchored eyes positioned ^ ^ ^ run function guns:fairycast
 
-playsound minecraft:block.soul_sand.break master @s
+playsound minecraft:block.amethyst_block.break master @s
 
 # Remove the raycasting tag after raycast completion to prepare fo the next player
 tag @s remove raycasting
-scoreboard players reset .distance soul_raycast
+scoreboard players reset .distance fairy_raycast

@@ -23,7 +23,9 @@ scoreboard objectives add soulspecterlife dummy
 scoreboard players add fairy_count fairy 0
 #raycasts
 scoreboard objectives add r_soulpiercer minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add r_fairystaff minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add soul_raycast dummy
+scoreboard objectives add fairy_raycast dummy
 scoreboard objectives add soulpierced dummy
 #sleepscoreboard
 scoreboard objectives add sleep dummy

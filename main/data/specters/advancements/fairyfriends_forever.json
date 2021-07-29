@@ -5,7 +5,8 @@
             "color": "light_purple"
         },
         "description": {
-            "text": "Bringe deine Fee auf Level 3"
+            "text": "Bringe deine Fee auf Level 3",
+            "nbt": "{CustomModelData:99670}"
         },
         "icon": {
             "item": "minecraft:pink_dye"

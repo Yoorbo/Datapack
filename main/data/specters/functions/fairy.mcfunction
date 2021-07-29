@@ -1,5 +1,7 @@
 execute as @e[tag=fairy] at @s anchored eyes facing entity @e[limit=1,sort=random] eyes positioned ^ ^ ^2 rotated as @s positioned ^ ^ ^5 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ^ ^ ^0.1 ~ ~
-execute at @e[tag=fairy] as @a[distance=..25,limit=1,sort=nearest,tag=!fairyowner] run function specters:fairy_changeowner
+execute at @e[tag=fairy] as @a[distance=..5,limit=1,sort=nearest,tag=!fairyowner,nbt={SelectedItem:{id:"minecraft:golden_carrot"}}] run function specters:fairy_changeowner
+execute at @e[tag=fairy] run advancement grant @a[distance=..30] only specters:fairy_found
+execute as @e[tag=fairy] at @s anchored eyes facing entity @a[distance=..25,limit=1,sort=nearest,tag=!fairyowner,nbt={SelectedItem:{id:"minecraft:golden_carrot"}}] eyes positioned ^ ^ ^2 rotated as @s positioned ^ ^ ^5 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ^ ^0.2 ^0.2 ~ ~
 
 execute as @e[tag=owned_fairy] at @s anchored eyes facing entity @a[tag=fairyowner,limit=1,sort=nearest] eyes positioned ^ ^ ^2 rotated as @s positioned ^ ^ ^5 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ^ ^0.8 ^0.4 ~ ~
 

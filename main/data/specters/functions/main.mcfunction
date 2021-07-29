@@ -1,2 +1,3 @@
 function specters:soulspecter
 function specters:fairy
+function specters:fairytools

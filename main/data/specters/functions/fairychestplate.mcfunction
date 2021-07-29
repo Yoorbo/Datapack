@@ -1,0 +1,3 @@
+summon item ~ ~ ~ {CustomNameVisible:1b,CustomName:'{"text":"Fairy Chestplate","color":"light_purple"}',Item:{id:"minecraft:chainmail_chestplate",Count:1b,tag:{display:{Name:'{"text":"Fairy Chestplate","color":"light_purple","bold":false,"italic":false}',Lore:['{"text":"Fairy Empowered II","color":"gray","bold":false,"italic":false}']},HideFlags:2,CustomModelData:99675,fairychestplate:1b,AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:8,Operation:0,UUID:[I;1819938475,-1357757518,-1819559230,1774916198],Slot:"chest"},{AttributeName:"generic.armor",Name:"generic.armor",Amount:8,Operation:0,UUID:[I;269116967,931538591,-1517455037,653113235],Slot:"chest"}]}}}
+execute at @s run advancement grant @p only specters:fairy_with_you
+kill @s

@@ -4,3 +4,5 @@ execute if entity @s[type=item,nbt={Item:{id:"minecraft:golden_pickaxe",Count:1b
 execute if entity @s[type=item,nbt={Item:{id:"minecraft:golden_shovel",Count:1b}},tag=!fairychanted] run function specters:fairyshovel
 execute if entity @s[type=item,nbt={Item:{id:"minecraft:golden_axe",Count:1b}},tag=!fairychanted] run function specters:fairyaxe
 execute if entity @s[type=item,nbt={Item:{id:"minecraft:golden_hoe",Count:1b}},tag=!fairychanted] run function specters:fairyhoe
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:pink_dye",Count:1b,tag:{fairydust:1b}}},tag=!fairychanted] as @s at @s run function specters:fairyleveling
+execute if entity @s[type=item,nbt={Item:{id:"minecraft:pink_dye",Count:64b,tag:{fairydust:1b}}},tag=!fairychanted] as @s at @s run function specters:fairylevelingstack

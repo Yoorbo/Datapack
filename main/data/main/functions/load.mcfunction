@@ -14,6 +14,8 @@ scoreboard objectives add battlhorn_uses dummy
 scoreboard objectives add r_soulspecter minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add soulzombie dummy
 scoreboard objectives add fairy dummy
+scoreboard objectives add fairylevel dummy
+scoreboard objectives add fairyxp dummy
 scoreboard objectives add retsoulspecter dummy
 scoreboard players add soulzombie_count soulzombie 0
 scoreboard players add retsoulspecter_c retsoulspecter 0

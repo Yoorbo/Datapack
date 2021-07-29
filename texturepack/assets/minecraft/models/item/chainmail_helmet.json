@@ -1,0 +1,11 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/chainmail_helmet"
+	},
+	"overrides":
+[
+
+	{ "predicate": { "custom_model_data": 99674}, "model": "item/fairytools/fairyhelmet" }
+]
+}

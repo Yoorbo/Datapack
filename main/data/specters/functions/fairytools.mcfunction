@@ -1,1 +1,7 @@
-execute as @a[nbt={SelectedItem:{id:"minecraft:golden_pickaxe",Count:1b,tag:{fairypick:1b}}}] at @s run fill ~5 ~5 ~5 ~-5 ~-5 ~-5 minecraft:gold_ore replace minecraft:coal_ore
+execute as @a[nbt={SelectedItem:{id:"minecraft:golden_pickaxe",Count:1b,tag:{fairypick:1b}}}] at @s run function specters:fairypick_function
+execute as @a[scores={FallOak=1..},nbt={SelectedItem:{id:"minecraft:golden_axe",tag:{fairyaxe:1b}}}] at @s as @e[distance=..7,type=item,nbt={Age:0s,Item:{id:"minecraft:oak_log"}}] at @s run function specters:fairyaxetriple
+execute as @a[scores={FallSpruce=1..},nbt={SelectedItem:{id:"minecraft:golden_axe",tag:{fairyaxe:1b}}}] at @s as @e[distance=..7,type=item,nbt={Age:0s,Item:{id:"minecraft:spruce_log"}}] at @s run function specters:fairyaxetriple
+execute as @a[scores={FallBirch=1..},nbt={SelectedItem:{id:"minecraft:golden_axe",tag:{fairyaxe:1b}}}] at @s as @e[distance=..7,type=item,nbt={Age:0s,Item:{id:"minecraft:birch_log"}}] at @s run function specters:fairyaxetriple
+execute as @a[scores={FallAcacia=1..},nbt={SelectedItem:{id:"minecraft:golden_axe",tag:{fairyaxe:1b}}}] at @s as @e[distance=..7,type=item,nbt={Age:0s,Item:{id:"minecraft:acacia_log"}}] at @s run function specters:fairyaxetriple
+execute as @a[scores={FallJungle=1..},nbt={SelectedItem:{id:"minecraft:golden_axe",tag:{fairyaxe:1b}}}] at @s as @e[distance=..7,type=item,nbt={Age:0s,Item:{id:"minecraft:jungle_log"}}] at @s run function specters:fairyaxetriple
+execute as @a[scores={FallDarkOak=1..},nbt={SelectedItem:{id:"minecraft:golden_axe",tag:{fairyaxe:1b}}}] at @s as @e[distance=..7,type=item,nbt={Age:0s,Item:{id:"minecraft:dark_oak_log"}}] at @s run function specters:fairyaxetriple

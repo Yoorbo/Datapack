@@ -1,4 +1,4 @@
 summon item ~ ~ ~ {CustomNameVisible:1b,Age:-32768,Tags:["fairychanted"],CustomName:'{"text":"Fairy Pickaxe","color":"light_purple"}',Item:{id:"minecraft:golden_hoe",Count:1b,tag:{display:{Name:'{"text":"Fairy Hoe","color":"light_purple","bold":false,"italic":false}',Lore:['{"text":"Fairy Empowered I ","color":"gray","bold":false,"italic":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:99694,fairyhoe:1b}}}
 execute at @s run advancement grant @p only specters:fairy_tools
-summon item ~ ~ ~ {Item:{id:"minecraft:pink_dye",Count:64b,tag:{display:{Name:'{"text":"Fairy Dust","color":"light_purple","bold":false,"italic":false}',Lore:['{"text":"Kristalle aus reiner Feenmagie","color":"dark_gray","bold":false,"italic":false}','{"text":"Gib dies deiner Fee","color":"gray","bold":false,"italic":false}']},CustomModelData:99670,fairydust:1b}}}
+function specters:fairylevelingstack
 kill @s

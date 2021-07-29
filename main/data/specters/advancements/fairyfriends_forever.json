@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Freunde auf Ewig",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Bringe deine Fee auf Level 3"
+        },
+        "icon": {
+            "item": "minecraft:pink_dye"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "position": {
+            "y": 10000
+          },
+          "biome": "minecraft:deep_ocean"
+        }
+      }
+    }
+  },
+    "rewards": {
+        "experience": 1000
+    },
+    "parent": "specters:fairy_save_haven"
+}

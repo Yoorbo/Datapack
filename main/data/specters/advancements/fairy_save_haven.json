@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Ein sicherer Hafen",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Wähle einen Ort für deine Fee an dem sie bleiben kann"
+        },
+        "icon": {
+            "item": "minecraft:pink_stained_glass"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "position": {
+            "y": 10000
+          },
+          "biome": "minecraft:deep_ocean"
+        }
+      }
+    }
+  },
+    "rewards": {
+        "experience": 1000
+    },
+    "parent": "specters:best_fairyfriends"
+}

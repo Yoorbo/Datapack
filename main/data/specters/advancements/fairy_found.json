@@ -1,0 +1,36 @@
+{
+    "display": {
+        "title": {
+            "text": "Eine Fee",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Finde eine Fee",
+            "bold": false
+        },
+        "icon": {
+            "item": "minecraft:pink_tulip"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "position": {
+            "y": 10000
+          },
+          "biome": "minecraft:deep_ocean"
+        }
+      }
+    }
+  },
+    "rewards": {
+        "experience": 1000
+    }
+}

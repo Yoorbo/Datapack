@@ -1,0 +1,36 @@
+{
+    "display": {
+        "title": {
+            "text": "Pink?!",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Gib deiner Fee ein Geschenk"
+        },
+        "icon": {
+            "item": "minecraft:golden_axe",
+            "nbt": "{CustomModelData:99693}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "position": {
+            "y": 10000
+          },
+          "biome": "minecraft:deep_ocean"
+        }
+      }
+    }
+  },
+    "rewards": {
+        "experience": 1000
+    },
+    "parent": "specters:glass_fairy"
+}

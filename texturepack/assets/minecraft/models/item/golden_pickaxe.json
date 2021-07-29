@@ -3,8 +3,9 @@
     "textures": {
         "layer0": "item/golden_pickaxe"
     },
-    "overrides":
+        "overrides":
 	[
-    {"predicate": {"custom_model_data": 6370001},"model": "hammer/gold"}
+        {"predicate": {"custom_model_data": 6370001},"model": "hammer/gold"},
+        { "predicate": { "custom_model_data": 99691}, "model": "item/fairytools/fairypickaxe" }
     ]
 }

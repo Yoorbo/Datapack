@@ -1,0 +1,1 @@
+execute as @a[nbt={SelectedItem:{id:"minecraft:golden_pickaxe",Count:1b,tag:{fairypick:1b}}}] at @s run fill ~5 ~5 ~5 ~-5 ~-5 ~-5 minecraft:gold_ore replace minecraft:coal_ore

@@ -9,7 +9,7 @@
         },
         "icon": {
             "item": "minecraft:pink_dye",
-            "nbt": "{CustomModelData:99670}"
+            "nbt": "{CustomModelData:99672}"
         },
         "frame": "challenge",
         "show_toast": true,

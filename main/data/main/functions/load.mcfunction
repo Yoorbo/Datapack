@@ -21,6 +21,8 @@ scoreboard players add soulzombie_count soulzombie 0
 scoreboard players add retsoulspecter_c retsoulspecter 0
 scoreboard objectives add soulspecterlife dummy
 scoreboard players add fairy_count fairy 0
+scoreboard objectives add firsttravel dummy
+scoreboard objectives add portal_cd dummy
 #raycasts
 scoreboard objectives add r_soulpiercer minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add r_fairystaff minecraft.used:minecraft.carrot_on_a_stick

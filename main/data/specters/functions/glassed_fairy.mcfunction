@@ -15,5 +15,3 @@ kill @e[type=item,nbt={Item:{id:"minecraft:glass",Count:1b}},distance=..2]
 execute as @s at @s if entity @a[tag=!fairyowner,limit=1,sort=nearest,distance=..3,nbt={SelectedItem:{id:"minecraft:golden_carrot"}}] run function specters:unglass_fairy
 execute if entity @s[scores={fairylevel=1..}] as @e[type=item,distance=..3,tag=!fairychanted] at @s run function specters:fairy_item_enchant
 execute if entity @s[scores={fairylevel=2..}] as @e[type=item,distance=..3,tag=!fairychanted] at @s run function specters:fairy_item2_enchant
-
-#execute as @s in specters:fairyland run teleport ~ ~ ~

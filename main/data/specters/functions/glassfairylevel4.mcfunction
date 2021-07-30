@@ -10,3 +10,6 @@ kill @e[type=#minecraft:impact_projectiles,distance=..100]
 effect give @e[type=#guns:dont_target,distance=..100] minecraft:regeneration 1 4 true
 effect give @e[type=player,distance=..100] minecraft:regeneration 1 3 true
 kill @e[type=tnt,distance=..100]
+function main:particles_idle
+tp @s ~ ~ ~ ~6.0 180
+execute as @s at @s if entity @p[dy=2] unless entity @p[scores={portal_cd=1..}] run function specters:dimensiontravel

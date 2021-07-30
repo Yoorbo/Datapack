@@ -12,4 +12,4 @@ effect give @e[type=player,distance=..100] minecraft:regeneration 1 3 true
 kill @e[type=tnt,distance=..100]
 function main:particles_idle
 tp @s ~ ~ ~ ~6.0 180
-execute as @s at @s if entity @p[dy=2] unless entity @p[scores={portal_cd=1..}] run function specters:dimensiontravel
+execute as @s at @s if entity @e[dy=2,sort=nearest,limit=1,tag=!glassed_fairy] unless entity @e[scores={portal_cd=1..},sort=nearest,limit=1,tag=!glassed_fairy] run function specters:dimensiontravel

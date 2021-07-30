@@ -6,4 +6,4 @@ tag @s add not_fairy
 ## Increment count
 scoreboard players add fairy_count fairy 1
 # Reset count
-execute if score fairy_count fairy matches 100.. run scoreboard players set fairy_count fairy 0
+execute if score fairy_count fairy matches 40.. run scoreboard players set fairy_count fairy 0

@@ -1,17 +1,16 @@
 {
     "display": {
         "title": {
-            "text": "Pink?!",
+            "text": "Das Funkeln",
             "color": "light_purple"
         },
         "description": {
-            "text": "Gib deiner Fee dein Werkzeug"
+            "text": "Schau dir deine Fee genauer an"
         },
         "icon": {
-            "item": "minecraft:golden_axe",
-            "nbt": "{CustomModelData:99693}"
+            "item": "minecraft:pink_dye"
         },
-        "frame": "task",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
@@ -32,5 +31,5 @@
     "rewards": {
         "experience": 1000
     },
-    "parent": "specters:glass_fairy"
+    "parent": "specters:fairyfriends_unchained"
 }

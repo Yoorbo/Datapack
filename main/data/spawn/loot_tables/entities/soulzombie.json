@@ -15,7 +15,7 @@
       "entries": [
         {
           "type": "item",
-          "weight": 20,
+          "weight": 10,
           "name": "minecraft:soul_sand",
           "functions": [
             {
@@ -40,7 +40,7 @@
         },
         {
           "type": "item",
-          "weight": 1,
+          "weight": 2,
           "name": "minecraft:music_disc_pigstep",
           "functions": [
             {
@@ -51,7 +51,7 @@
         },
         {
           "type": "item",
-          "weight": 5,
+          "weight": 3,
           "name": "minecraft:soul_torch",
           "functions": [
             {

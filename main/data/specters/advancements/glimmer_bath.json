@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:water_bucket"
+    },
+    "title": "Ein Bad im Paradies",
+    "description": "Gehe in der Feendimension schwimmen",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "specters:find_fairyland",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "stepping_on": {
+                "dimension": "specters:fairyland",
+                "block": {
+                  "blocks": [
+                    "minecraft:water"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

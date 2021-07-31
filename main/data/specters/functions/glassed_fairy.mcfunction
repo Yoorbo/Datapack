@@ -1,4 +1,4 @@
-particle dust_color_transition 0.737 0.212 1.000 3 1.000 0.012 0.208 ~ ~0.5 ~ 60 20 60 0.1 2 force
+particle dust_color_transition 0.737 0.212 1.000 3 1.000 0.012 0.208 ~ ~0.5 ~ 60 20 60 0.1 2
 
 
 execute if entity @s[scores={fairylevel=1}] as @s at @s run function specters:glassfairylevel1

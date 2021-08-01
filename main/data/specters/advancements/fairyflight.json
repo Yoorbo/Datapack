@@ -8,7 +8,8 @@
             "text": "Gib deiner Fee deine Elytra"
         },
         "icon": {
-            "item": "minecraft:elytra"
+            "item": "minecraft:elytra",
+            "nbt": "{CustomModelData:99690}"
         },
         "frame": "task",
         "show_toast": true,

@@ -1,0 +1,4 @@
+summon item ~ ~ ~ {CustomNameVisible:1b,Age:-32768,Tags:["fairychanted"],CustomName:'{"text":"Fairylytra","color":"light_purple"}',Item:{id:"minecraft:elytra",Count:1b,tag:{display:{Name:'{"text":"Fairylytra","color":"light_purple","bold":false,"italic":false}',Lore:['{"text":"Fairy Empowered III","color":"gray","bold":false,"italic":false}']},HideFlags:2,CustomModelData:99690,fairylytra:1b,AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:8,Operation:0,UUID:[I;944788507,234834306,-1215592318,-864434248],Slot:"chest"},{AttributeName:"generic.armor",Name:"generic.armor",Amount:8,Operation:0,UUID:[I;241695599,-1798615917,-1232514989,1313959883],Slot:"chest"}]}}}
+execute at @s run advancement grant @p only specters:fairyflight
+function specters:fairylevelingstack
+kill @s

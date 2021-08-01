@@ -1,5 +1,3 @@
-playsound minecraft:block.amethyst_block.chime master @a[distance=..20]
-particle dust_color_transition 0.737 0.212 1.000 1 1.000 0.012 0.208 ~ ~0.2 ~ 0 0 0 0 30
 execute if entity @s[type=item,nbt={Item:{id:"minecraft:golden_helmet",Count:1b}},tag=!fairychanted] at @s run function specters:fairyhelmet
 execute if entity @s[type=item,nbt={Item:{id:"minecraft:golden_chestplate",Count:1b}},tag=!fairychanted] at @s run function specters:fairychestplate
 execute if entity @s[type=item,nbt={Item:{id:"minecraft:golden_leggings",Count:1b}},tag=!fairychanted] at @s run function specters:fairyleggings

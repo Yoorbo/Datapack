@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bubble_coral_block"
+    },
+    "title": "Jetzt wieder in Pink erhältlich",
+    "description": "Heile eine korrumpierte Fee",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "specters:find_corrupted_specter",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "position": {
+            "y": 10000
+          },
+          "biome": "minecraft:deep_ocean"
+        }
+      }
+    }
+  }
+}

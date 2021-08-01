@@ -4,6 +4,7 @@ effect give @s minecraft:instant_health 1 1
 tag @s remove corrupted_fairy
 tag @s add fairy
 tag @s add uncorruptable
+advancement grant @p only specters:heal_corrupted_specter
 
 scoreboard players set .distance fairy_raycast 1000
 

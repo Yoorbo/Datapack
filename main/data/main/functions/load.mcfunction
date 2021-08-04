@@ -26,8 +26,10 @@ scoreboard objectives add portal_cd dummy
 #raycasts
 scoreboard objectives add r_soulpiercer minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add r_fairystaff minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add r_fairyuncorrupt minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add soul_raycast dummy
 scoreboard objectives add fairy_raycast dummy
+scoreboard objectives add unco_raycast dummy
 scoreboard objectives add soulpierced dummy
 #sleepscoreboard
 scoreboard objectives add sleep dummy

@@ -1,0 +1,1 @@
+give @s minecraft:potion{display:{Name:'{"text":"Happy Gunty","color":"aqua"}'},HideFlags:63,CustomModelData:1010,CustomPotionEffects:[{Id:1b,Amplifier:15b,Duration:2400},{Id:4b,Amplifier:5b,Duration:2400},{Id:7b,Amplifier:1b,Duration:1},{Id:9b,Amplifier:1b,Duration:1200},{Id:17b,Amplifier:5b,Duration:10},{Id:18b,Amplifier:10b,Duration:3200}]} 1

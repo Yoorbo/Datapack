@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "CompacterUnlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "customcraft:compacter"
+            }
+        }
+    },
+    "rewards": {
+        "function": "customcraft:compacter"
+    }
+}

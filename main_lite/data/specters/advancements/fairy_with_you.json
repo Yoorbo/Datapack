@@ -1,0 +1,36 @@
+{
+    "display": {
+        "title": {
+            "text": "Immer bei dir",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Gib deiner Fee deine Rüstung"
+        },
+        "icon": {
+            "item": "minecraft:chainmail_helmet",
+            "nbt": "{CustomModelData:99674}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "position": {
+            "y": 10000
+          },
+          "biome": "minecraft:deep_ocean"
+        }
+      }
+    }
+  },
+    "rewards": {
+        "experience": 1000
+    },
+    "parent": "specters:best_fairyfriends"
+}

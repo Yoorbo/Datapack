@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "_",
+        "G"
+    ],
+    "key": {
+        "_": {
+            "item": "minecraft:cobblestone_slab"
+        },
+        "G": {
+            "item": "minecraft:oak_slab"
+        }
+    },
+    "result": {
+        "item": "minecraft:petrified_oak_slab",
+        "count": 1
+    }
+}

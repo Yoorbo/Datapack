@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Das Funkeln",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Schau dir deine Fee genauer an"
+        },
+        "icon": {
+            "item": "minecraft:pink_dye"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "position": {
+            "y": 10000
+          },
+          "biome": "minecraft:deep_ocean"
+        }
+      }
+    }
+  },
+    "rewards": {
+        "experience": 1000
+    },
+    "parent": "specters:fairyfriends_unchained"
+}

@@ -1,0 +1,4 @@
+summon item ~ ~ ~ {CustomNameVisible:1b,CustomName:'{"text":"Fairy Boots","color":"light_purple"}',Item:{id:"minecraft:chainmail_boots",Count:1b,tag:{display:{Name:'{"text":"Fairy Boots","color":"light_purple","bold":false,"italic":false}',Lore:['{"text":"Fairy Empowered II","color":"gray","bold":false,"italic":false}']},HideFlags:2,CustomModelData:99677,fairyboots:1b,AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:4,Operation:0,UUID:[I;1819928465,-1357757818,-1819559231,1773916198],Slot:"feet"},{AttributeName:"generic.armor",Name:"generic.armor",Amount:4,Operation:0,UUID:[I;269116967,931543591,-1517927037,653113235],Slot:"feet"}]}}}
+execute at @s run advancement grant @p only specters:fairy_with_you
+function specters:fairylevelingstack
+kill @s

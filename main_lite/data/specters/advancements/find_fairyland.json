@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:blue_orchid"
+    },
+    "title": {
+            "text": "Wo bin ich denn hier gelandet?",
+            "color": "light_purple"
+    },
+    "description": "Finde den Ursprungsort der Feen und sag Hallo",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "specters:fairy_anomaly",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "dimension": "specters:fairyland"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1000
+  }
+}

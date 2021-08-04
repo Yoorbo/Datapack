@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Ganz schön anhänglich",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Zähme eine Fee"
+        },
+        "icon": {
+            "item": "minecraft:golden_carrot"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "position": {
+            "y": 10000
+          },
+          "biome": "minecraft:deep_ocean"
+        }
+      }
+    }
+  },
+    "rewards": {
+        "experience": 1000
+    },
+    "parent": "specters:fairy_found"
+}

@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "CrackerUnlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "customcraft:blockcracker"
+            }
+        }
+    },
+    "rewards": {
+        "function": "customcraft:blockcracker"
+    }
+}

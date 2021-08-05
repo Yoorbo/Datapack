@@ -7,6 +7,7 @@ execute if entity @s[scores={fairylevel=3}] as @s at @s run function specters:gl
 execute if entity @s[scores={fairylevel=4..}] as @s at @s run function specters:glassfairylevel4
 
 execute if entity @s[scores={fairylevel=2..}] at @s run effect give @e[type=!#guns:dont_target,type=!player,distance=..110] minecraft:slowness 1 3 true
+execute if entity @s[scores={fairylevel=2..}] at @s run effect give @a[distance=..75] minecraft:haste 1 2 true
 
 fill ~1 ~1 ~1 ~-1 ~-1 ~-1 minecraft:glass
 setblock ~ ~2 ~ minecraft:light keep

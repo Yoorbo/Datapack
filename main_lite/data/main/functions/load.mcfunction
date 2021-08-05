@@ -1,4 +1,4 @@
-tellraw @a {"text":"Yann V5 geladen. Mobhead Drop Update","color":"gold","hoverEvent":{"action":"show_text","value":"Bocadillo con alma por favor"}}
+tellraw @a {"text":"Yann V8 geladen. Fairy Update","color":"gold","hoverEvent":{"action":"show_text","value":"Bocadillo con alma por favor"}}
 function ops:install
 #jump-scoreboard
 scoreboard objectives add jump minecraft.custom:minecraft.jump

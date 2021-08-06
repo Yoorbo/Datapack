@@ -3,6 +3,10 @@
   "values": [
     "minecraft:item",
     "minecraft:item_frame",
+    "minecraft:fishing_bobber",
+    "minecraft:iron_golem",
+    "minecraft:snow_golem",
+    "minecraft:zombie_villager",
     "minecraft:glow_item_frame",
     "minecraft:area_effect_cloud",
     "minecraft:armor_stand",

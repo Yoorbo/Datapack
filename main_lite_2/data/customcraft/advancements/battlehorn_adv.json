@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "BattlehornUnlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "customcraft:battlehorn"
+            }
+        }
+    },
+    "rewards": {
+        "function": "customcraft:battlehorn"
+    }
+}

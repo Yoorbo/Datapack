@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#H#",
+        "#B#",
+        "#C#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:red_nether_bricks"
+        },
+        "H": {
+            "item": "minecraft:hopper"
+        },
+        "B": {
+            "item": "minecraft:blast_furnace"
+        },
+        "C": {
+            "item": "minecraft:chiseled_quartz_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

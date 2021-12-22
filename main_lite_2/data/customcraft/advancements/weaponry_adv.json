@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "WeaponryUnlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "customcraft:weaponry"
+            }
+        }
+    },
+    "rewards": {
+        "function": "customcraft:weaponry"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "WirelessUnlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "customcraft:resistance"
+            }
+        }
+    },
+    "rewards": {
+        "function": "customcraft:resistance"
+    }
+}

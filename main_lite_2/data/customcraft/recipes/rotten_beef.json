@@ -1,0 +1,11 @@
+{
+    "type": "smoking",
+    "ingredient": 
+        {
+            "item": "minecraft:rotten_flesh"
+        },
+    "result": "minecraft:beef",
+	"experience": 0.45,
+	"cookingtime": 40
+	
+}

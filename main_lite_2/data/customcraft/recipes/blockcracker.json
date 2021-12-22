@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#DI",
+        "WVS",
+        "HRH"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:golden_pickaxe"
+        },
+        "D": {
+            "item": "minecraft:diamond_pickaxe"
+        },
+        "I": {
+            "item": "minecraft:iron_pickaxe"
+        },
+        "W": {
+            "item": "minecraft:wooden_pickaxe"
+        },
+        "V": {
+            "item": "minecraft:diamond_block"
+        },
+        "S": {
+            "item": "minecraft:stone_pickaxe"
+        },
+        "H": {
+            "item": "minecraft:hopper"
+        },
+        "R": {
+            "item": "minecraft:redstone_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}
